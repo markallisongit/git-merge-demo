@@ -57,5 +57,14 @@
   <Import Condition="'$(SQLDBExtensionsRefPath)' == ''" Project="$(MSBuildExtensionsPath)\Microsoft\VisualStudio\v$(VisualStudioVersion)\SSDT\Microsoft.Data.Tools.Schema.SqlTasks.targets" />
   <ItemGroup>
     <Folder Include="Properties" />
+    <Folder Include="Tables" />
+    <Folder Include="Stored Procedures" />
+  </ItemGroup>
+  <ItemGroup>
+    <Build Include="Tables\MasterTable.sql" />
+    <Build Include="Stored Procedures\MasterProc.sql" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="git-merge-demo.publish.xml" />
   </ItemGroup>
 </Project>
