@@ -63,6 +63,7 @@
   <ItemGroup>
     <Build Include="Tables\MasterTable.sql" />
     <Build Include="Stored Procedures\MasterProc.sql" />
+    <Build Include="Tables\Feature1Table.sql" />
     <Build Include="Tables\Feature2Table.sql" />
   </ItemGroup>
   <ItemGroup>
